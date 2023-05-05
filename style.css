@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav{
+    /* margin: 0 auto; */
+    width: 100%;
+    /* margin-top: 20px; */
+    background-color: black;
+}
+
+.navitem{
+    text-align: right;
+}
+
+.navitem ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px 20px 25px;
+    
+}
+
+.navitem a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container1{
+    background-image: url(./img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont1{
+    position: absolute;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.cont1 h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.cont1 h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.container2{
+    margin-top: 30px;
+}
+
+.cont2{
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.cont2 p{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contt{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.contt , .oll li{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+}
+
+.footers p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+/* ----------------ARTICLES-------------- */
+
+.container3{
+    background-color: black;
+
+}
+
+.cont3 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.container4{
+    margin-top: 30px;
+}
+
+.cont4{
+    margin-left: 100px;
+    width: 85%;
+}
+
+.cont4 h1{
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+hr{
+    color: #e5e5e5;
+}
+
+.cont4 p{
+    margin-top: 30px;
+    line-height: 40px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.cont5{
+    margin-top: 30px;
+}
+
+.linkk{
+    color: blue;
+}
+
+.container6{
+    margin-top: 30px;
+}
+
+.cont6{
+    text-align: center;
+}
+
+.cont6 p{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+
+@media (max-width: 619px){
+    body{
+        font-size: 50%;
+    }
+
+    nav{
+        background-color: #D29D00;
+    }
+
+    .navitem{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navitem a{
+        font-size: 14px;
+        font-weight: normal;
+        color: black;
+    }
+    .navitem ul li{
+        padding: 10px;
+    }
+
+    .container1{
+        background-image: url(./img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+        height: 50vh;
+    }
+
+    .cont1{
+        position: absolute;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .cont1 h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .cont1 h2{
+        font-size: 20px;
+    }
+
+    .container3{
+        background-color: #E5E5E5;
+    
+    }
+
+    .cont3 p{
+        color:  rgb(153, 150, 150);
+    }
+
+    .cont4{
+        margin-left: 45px;
+        width: 85%;
+    }
+
+
+
+
+
+
+}    
